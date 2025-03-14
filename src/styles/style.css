@@ -1,0 +1,71 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #273c75;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #efff;
+    color: #273c75;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #eff;
+}
+
+.navbar-toggler {
+    background-color: #eff;
+}
+
+.section-tittle {
+    font-family: Pacifico, cursive;
+}
+
+.section-tittle span {
+    color: #273c75;
+}
+
+#sobre-o-movies-house,
+#filmes {
+    background-color: rgba(39, 60, 117, 0.3);
+}
+
+.text-colored {
+    color: #273c75;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #273c75; 
+    color:#fff
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #273c75;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px){
+    .carousel-item img {
+        height: 350px
+    }
+}
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 150px
+    }
+}

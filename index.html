@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Cinema</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-tittle"> Absolute Cinema </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-absolute-cinema" class="nav-link"> <i class="bi bi-house-door me-1"></i> Sobre a Absolute Cinema</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#destaques" class="nav-link" > <i class="bi bi-calendar-check me-1"></i> Destaques </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#filmes" class="nav-link" > <i class="bi bi-card-text me-1"></i> Filmes </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link" > <i class="bi bi-chat-left-text me-1"></i> Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-absolute-cinema">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./src/images/cinema.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./src/images/absolute_cinema.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./src/images/pipoca.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./src/images/hall_cinema.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-md-0">
+                            <h2 class="section-tittle">Sobre <span> o Cinema </span></h2>
+                            <p> Nosso Cinema e equipado com luzer de emergencia placas e todos os aparatos de segurança para que você se sinta seguro enquanto assiste seu filme, telas de ultima geração e projeção de filmes em 4k 60fps para que sua experiencia seja a melhor de todas </p>
+                            <h3 class="section-tittle">Sobre <span> o espaço </span></h3>
+                            <p> Espaço aconchegante para toda a familia seja para os pais filhoes avos e pets, com todo o conforto para que seu momento de lazer seja especial e proveitoso </p>
+                            <ul>
+                                <li> Banheiros</li>
+                                <li> Fraudario</li>
+                                <li> Espaço Pet</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destaques" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center">Destaques Para toda a <span> Familia </span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./src/images/Speed_racer_poster.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4">
+                            Speed Racer
+                        </h3>
+                        <p>Nascido em um família de pilotos de carros, Speed Racer é uma estrelas das corridas. Ao negar uma oferta lucrativa do empresário da Royalton Indústrias, Speed o deixa furioso e acaba descobrindo a corrupção dos patrocinadores em corridas. Para salvar os negócios da família, Speed participa do mesmo rally que matou seu irmão para desafiar um magnata corrupto.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./src/images/Kill_Bill_poster.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4">
+                            Kill Bill
+                        </h3>
+                        <p>A ex-assassina conhecida apenas como Noiva acorda de um coma de quatro anos decidida a se vingar de Bill, seu ex-amante e chefe, que tentou matá-la no dia do casamento. Ela está motivada a acertar as contas com cada uma das pessoas envolvidas com a perda da filha, da festa de casamento e dos quatro anos de sua vida. Na jornada, a Noiva é submetida a dores físicas agonizantes ao enfrentar a inescrupulosa gangue de Bill, o Esquadrão Assassino de Víboras Mortais.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./src/images/2_fast_2_furious_poster.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4">
+                            +Velozes +Furiosos
+                        </h3>
+                        <p>O ex-policial Brian O'Conner se muda de Los Angeles para Miami para recomeçar sua vida. Ele acaba se envolvendo em rachas na sua nova cidade com seu amigo Tej e Suki. Suas aventuras terminam quando ele é preso e faz um acordo com agentes do FBI. Brian tem a missão muito perigosa de prender um poderoso chefe do cartel das drogas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="filmes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center mb-5"><span class="text-colored">Em Cartaz</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#aventura" class="fw-bold text-start nav-link text-colored active">Aventura</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acao" class="fw-bold text-start nav-link text-colored">Ação</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#comedia" class="fw-bold text-start nav-link text-colored">Comédia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#animacao" class="fw-bold text-start nav-link text-colored">Animação</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="aventura">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/o_Cavaleiro_solitario_poster.jpg" alt="O Cavaleiro Solitario">
+                                        <h5 class="text-colored fw-bold mt-2">O Cavaleiro Solitario</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/indiana_jones_e_os_cacadores_da_arca_perdida.jpeg" alt="Indiana Joens e os Caçadores da Arca Perdida ">
+                                        <h5 class="text-colored fw-bold mt-2">Indiana Joens e os Caçadores da Arca Perdida</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/os_caca_fantasmas.jpg" alt="Os Caça-Fantasmas">
+                                        <h5 class="text-colored fw-bold mt-2">Os Caça-Fantasma</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/o_besouro_verde.jpg" alt="O Besouro Verde ">
+                                        <h5 class="text-colored fw-bold mt-2">O Besouro Verde</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="acao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/comando_delta.jpg" alt="Comando Delta">
+                                        <h5 class="text-colored fw-bold mt-2">Comando Delta</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/exterminador_do_futuro.jpg" alt="Exterminador do Futuro ">
+                                        <h5 class="text-colored fw-bold mt-2">Exterminador do Futuro</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/Rambo_2.jpg" alt="Rambo 2 ">
+                                        <h5 class="text-colored fw-bold mt-2">Rambo 2</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/tropa_de_elite.jpg" alt="Tropa de Elite ">
+                                        <h5 class="text-colored fw-bold mt-2">Tropa de Elite</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="comedia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/a_proposta.jpg" alt="A Proposta">
+                                        <h5 class="text-colored fw-bold mt-2">A Proposta</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/gente_grande.jpg" alt="Gente Grande">
+                                        <h5 class="text-colored fw-bold mt-2">Gente Grande</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/o_norbit.jpg" alt="O Norbit">
+                                        <h5 class="text-colored fw-bold mt-2">O Norbit</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/o_pequenino.jpg" alt="O pequenino">
+                                        <h5 class="text-colored fw-bold mt-2">O Pequenino</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="animacao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/a_fuga_das_galinhas.jpg" alt="A Fuga das Galinhas">
+                                        <h5 class="text-colored fw-bold mt-2">A Fuga das Galinhas</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/shrek.png" alt="Shrek">
+                                        <h5 class="text-colored fw-bold mt-2">Shrek</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./src/images/sonic.jpg" alt="Sonic">
+                                        <h5 class="text-colored fw-bold mt-2">Sonic</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="src/images/super_mario.jpg" alt="Super Mario">
+                                        <h5 class="text-colored fw-bold mt-2">Super Mario</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center"> Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu E-mail</label>
+                                <input type="text" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="https://www.facebook.com">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="https:www.instagram.com">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="https:www.whatsapp.com">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p> Rua Teste n: 001, Bairro Bootstrap - São Paulo - SP  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
